@@ -18,16 +18,15 @@
     gap: 3.125rem;
 }
 
-.footer-nav ul {
+.footer-nav ul{
     display: flex;
-
+    gap: 1.25rem;
 }
 
 .footer-nav ul ul{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-  
 }
 
 .footer-nav strong{
@@ -39,7 +38,7 @@
 }
 
 .footer-nav li a{
-   color:#ffffff;
+    color: #ffffff;
 }
 
 .footer-nav li a:hover{
@@ -51,17 +50,16 @@
     flex-direction: column;
 }
 
-.newsletter-form inpt{
+.newsletter-form input{
     border-radius: 30px;
     color: #AAAAAA;
     padding: 0.75rem 1.25rem;
-    width: 344px;
+    width: 21.5rem;
 }
 
 .footer-social span{
     margin-bottom: 1rem;
     display: block;
-
 }
 
 .footer-social ul{
@@ -69,6 +67,34 @@
     gap: 1.25rem;
 }
 
-.footer-social  li a:hover img{
-   opacity: 0.7; 
+.footer-social li a:hover img{
+    opacity: 0.7;
+}
+
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 1000px) {
+	.footer-content{
+		flex-direction: column;
+		gap: 2rem;
+		padding: 2rem 1rem;
+	}
+
+	.footer-nav ul{
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.footer-social ul{
+		gap: 1rem;
+	}
+
+	.footer-copy{
+		font-size: 1rem;
+		padding: 1.5rem 0 1.5rem;
+	}
 }
